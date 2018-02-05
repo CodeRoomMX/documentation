@@ -5,8 +5,8 @@ Bienvenido a Coderoom! Como asesor podrás proponer cambios o mejoras al materia
 El programa del curso es básicamente una colección de archivos markdown que serán mostrados en la web, editar un tema es tan fácil como encontrar el archivo markdown, editarlo y subirlo en forma de pull request.
 
 ## Lista de contenido
-- [Hacer una contribución](#contribution)
-- [Repositorios del curso](#courses)
+- [Hacer una contribución](#hacer-una-contribuci%C3%B3n)
+- [Repositorios del curso](#repositorios-del-curso)
 
 ## Hacer una contribución
 Pasos a seguir:
