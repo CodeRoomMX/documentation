@@ -11,12 +11,31 @@ El programa del curso es básicamente una colección de archivos markdown que se
 ## Hacer una contribución
 Pasos a seguir:
 
-Fork al repositorio y crear un branch con la descripción de la modificación esperada: _feature/description-of-contribution_.
+*Fork al repositorio* y crear un branch con la descripción de la modificación esperada: _feature/description-of-contribution_.
 
-Encontrar y corregir el archivo markdown. El contenido se encontrará dentro del directorio /content. Habrán un subdirectorio por tema, lección y unidad correspondientes al curso. Encuentra el archivo que deseas modificar, editalo y haz commit de tus cambios.
+*Encontrar y corregir el archivo markdown*. El contenido se encontrará dentro del directorio /content, cada directorio content tiene un `index.json` que sirve como índice para ubicar más rápidamente el directorio a buscar, el formato de index.json es el siguiente: Habrán un subdirectorio por tema, lección y unidad correspondientes al curso. 
+```
+{
+  "name": "...",
+  "id": "...",
+  "content": [
+    {
+      "unit": {
+        "src": "...",
+        "lessons": [
+          {
+            "src": "...",
+            "assignments": [
+              {"src": "..."}
+            ]
+          }
+        ]
+  ]
+}
+```
+Encuentra el archivo que deseas modificar, editalo y haz commit de tus cambios.
 
-Publica tu pull request
-Haz push de tus commits al repositorio remoto y publica un pull request. Github automáticamente seleccionará master como la base branch. Esto enviará a revisión tu pull request al equipo de Coderoom que será el encargado de hacer comentarios o el merge en caso de que este funcione correctamente.
+*Publica tu pull request* Haz push de tus commits al repositorio remoto y publica un pull request. Github automáticamente seleccionará master como la base branch. Esto enviará a revisión tu pull request al equipo de Coderoom que será el encargado de hacer comentarios o el merge en caso de que este funcione correctamente.
 
 Cuando un pull request sea aprobado, tu feature branch será agregada al master y será publica para todos.
 
@@ -26,6 +45,7 @@ Felicidades, gracias a ti el curso es ahora un mejor curso!
 Estos son los links a los temas que serán llevados durante el curso para un mejor y fácil acceso a los mismos:
 
 - Introducción a la programación
+- Git
 - FEWD
 - MySQL
 - PHP
