@@ -44,6 +44,7 @@ Felicidades, gracias a ti el curso es ahora un mejor curso!
 ## Repositorios del curso
 Estos son los links a los temas que serán llevados durante el curso para un mejor y fácil acceso a los mismos:
 
+- Recursos generales
 - Introducción a la programación
 - Git
 - FEWD
